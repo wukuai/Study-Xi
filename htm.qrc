@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/htm">
+        <file>2.htm</file>
+    </qresource>
+</RCC>
