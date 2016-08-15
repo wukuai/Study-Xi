@@ -1,5 +1,28 @@
 <RCC>
     <qresource prefix="/">
-        <file>shouye.png</file>
+        <file>next.png</file>
+        <file>last.png</file>
+        <file>checked.png</file>
+        <file>happyLast.png</file>
+        <file>happyNext.png</file>
+        <file>find1.png</file>
+        <file>find2.png</file>
+        <file>shouye.jpg</file>
+        <file>tongyong.jpg</file>
+        <file>longhurank.png</file>
+        <file>print.png</file>
+        <file>jian.png</file>
+        <file>add.png</file>
+        <file>down.png</file>
+        <file>up.png</file>
+        <file>pause.png</file>
+        <file>play.png</file>
+        <file>videolast.png</file>
+        <file>videonext.png</file>
+        <file>sound.png</file>
+        <file>soundNo.png</file>
+        <file>exampix.jpg</file>
+        <file>shalou.gif</file>
+        <file>tubiao.ico</file>
     </qresource>
 </RCC>

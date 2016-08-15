@@ -6,385 +6,1916 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1142</width>
-    <height>842</height>
+    <width>1204</width>
+    <height>599</height>
    </rect>
   </property>
-  <property name="minimumSize">
-   <size>
-    <width>1142</width>
-    <height>842</height>
-   </size>
-  </property>
-  <property name="maximumSize">
-   <size>
-    <width>1142</width>
-    <height>842</height>
-   </size>
-  </property>
   <property name="windowTitle">
-   <string>习主席系列重要讲话精神学习系统</string>
+   <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralWidget">
-   <widget class="QPushButton" name="pushButton">
-    <property name="geometry">
-     <rect>
-      <x>1000</x>
-      <y>50</y>
-      <width>111</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>系列讲话</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_2">
-    <property name="geometry">
-     <rect>
-      <x>1000</x>
-      <y>340</y>
-      <width>111</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>开始考试</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_3">
-    <property name="geometry">
-     <rect>
-      <x>1000</x>
-      <y>400</y>
-      <width>111</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>龙虎榜</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_4">
-    <property name="geometry">
-     <rect>
-      <x>1000</x>
-      <y>170</y>
-      <width>111</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>跟着大大学马列</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_5">
-    <property name="geometry">
-     <rect>
-      <x>1000</x>
-      <y>230</y>
-      <width>111</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>跟着大大学党史</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_6">
-    <property name="geometry">
-     <rect>
-      <x>1000</x>
-      <y>280</y>
-      <width>111</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>跟着大大学国学</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_7">
-    <property name="geometry">
-     <rect>
-      <x>1000</x>
-      <y>520</y>
-      <width>111</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>论坛交流</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_8">
-    <property name="geometry">
-     <rect>
-      <x>1000</x>
-      <y>110</y>
-      <width>111</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>视频学习</string>
-    </property>
-   </widget>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
       <x>0</x>
       <y>0</y>
-      <width>960</width>
-      <height>720</height>
+      <width>1201</width>
+      <height>602</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>label</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="shouye">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>570</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:none;
+font: 20pt &quot;迷你简艺黑&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>首页</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="xilie">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>570</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:none;
+font: 20pt &quot;迷你简艺黑&quot;;</string>
+    </property>
+    <property name="text">
+     <string>系列讲话</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="video">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>570</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:none;
+font: 20pt &quot;迷你简艺黑&quot;;</string>
+    </property>
+    <property name="text">
+     <string>视频学习</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="genzhe">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>570</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:none;
+font: 20pt &quot;迷你简艺黑&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>跟着主席学</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exam">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>570</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:none;
+font: 20pt &quot;迷你简艺黑&quot;;</string>
+    </property>
+    <property name="text">
+     <string>开始测试</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="rank">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>570</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:none;
+font: 20pt &quot;迷你简艺黑&quot;;</string>
+    </property>
+    <property name="text">
+     <string>龙虎榜</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="happy">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>570</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:none;
+font: 20pt &quot;迷你简艺黑&quot;;</string>
+    </property>
+    <property name="text">
+     <string>轻松一刻</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bbs">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>570</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:none;
+font: 20pt &quot;迷你简艺黑&quot;;</string>
+    </property>
+    <property name="text">
+     <string>论坛交流</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exit">
+    <property name="geometry">
+     <rect>
+      <x>1090</x>
+      <y>570</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:none;
+font: 20pt &quot;迷你简艺黑&quot;;</string>
+    </property>
+    <property name="text">
+     <string>退出</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="genzhelabel">
+    <property name="geometry">
+     <rect>
+      <x>51</x>
+      <y>20</y>
+      <width>811</width>
+      <height>531</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>genzhelabel</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="dangshi">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>60</y>
+      <width>251</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 11pt &quot;方正少儿简体&quot;;
+background-color: rgb(252, 241, 213);</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>跟着主席学党史</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>跟着主席学党史·党史概述</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>跟着主席学党史·探索之路</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>跟着主席学党史·革命征程</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>跟着主席学党史·坚定信念</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="junshi">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>130</y>
+      <width>251</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 11pt &quot;方正少儿简体&quot;;
+background-color: rgb(253, 246, 228);</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>跟着主席学军史</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>跟着主席学军史·1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>跟着主席学军史·2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>跟着主席学军史·3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>跟着主席学军史·4</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="malie">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>200</y>
+      <width>251</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 11pt &quot;方正少儿简体&quot;;
+background-color: rgb(252, 248, 239);</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>跟着主席学马列</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>跟着主席学党史·马列概述</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>跟着主席学党史·马列的诞生</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>跟着主席学党史·独创性贡献</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>跟着主席学党史·认识改造世界</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>跟着主席学党史·如何理解...</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="guoxue">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>270</y>
+      <width>251</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 11pt &quot;方正少儿简体&quot;;
+background-color: rgb(253, 249, 240);</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>跟着主席学国学</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>跟着主席学国学·概述</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>跟着主席学国学·国学经典</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>跟着主席学国学·国学精粹</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>跟着主席学国学·智慧与和谐人生</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>跟着主席学国学·智慧与健康人生</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="next">
+    <property name="geometry">
+     <rect>
+      <x>1070</x>
+      <y>380</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/next.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="last">
+    <property name="geometry">
+     <rect>
+      <x>930</x>
+      <y>380</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/last.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="examlabel">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>110</y>
+      <width>511</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 18pt &quot;迷你简艺黑&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>广大青年要勇敢肩负起时代赋予的重任，志存高远，脚踏实地，努力在实现（  ）的生动实践中放飞青春梦想。</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="examnext">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>400</y>
+      <width>71</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/next.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="exama">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>240</y>
+      <width>401</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 18pt &quot;迷你简艺黑&quot;;</string>
+    </property>
+    <property name="text">
+     <string>A</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="examb">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>290</y>
+      <width>401</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 18pt &quot;迷你简艺黑&quot;;</string>
+    </property>
+    <property name="text">
+     <string>B</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="examc">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>330</y>
+      <width>411</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 18pt &quot;迷你简艺黑&quot;;</string>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="examd">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>370</y>
+      <width>431</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 18pt &quot;迷你简艺黑&quot;;</string>
+    </property>
+    <property name="text">
+     <string>D</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="examz">
+    <property name="geometry">
+     <rect>
+      <x>1100</x>
+      <y>500</y>
+      <width>89</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Z</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="examjindu">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>420</y>
+      <width>151</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 17pt &quot;迷你简艺黑&quot;;</string>
+    </property>
+    <property name="text">
+     <string>测试进度：1/20</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="examwelcome">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>0</y>
+      <width>261</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 18pt &quot;迷你简艺黑&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>欢迎 王鹏飞 的到来</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>1090</x>
+      <y>530</y>
+      <width>69</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>1090</x>
+      <y>460</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>你好</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="examwelcome2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>221</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 18pt &quot;迷你简艺黑&quot;;</string>
+    </property>
+    <property name="text">
+     <string>快来挑战一下自己吧！</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="videoyongdian">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>80</y>
+      <width>291</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 11pt &quot;方正少儿简体&quot;;
+background-color: rgb(252, 241, 213);</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>习近平用典</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>第1集：为政之要</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>第2集：治国的本根</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>第3集：图难于其易</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>第4集：一枝一叶总关情</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>第5集：德莫高于爱民</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>第6集：底线思维</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>第7集：公私之间</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>第8集：静心思考，冷静处世</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>第9集：检身若不及</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>第10集：趋善避恶</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="videoliangxue">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>150</y>
+      <width>291</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 11pt &quot;方正少儿简体&quot;;
+background-color: rgb(252, 241, 213);</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>两学一做</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>第一集：什么是“两学一做”</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>第二集：如何开展“两学一做”？</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>第三集：党章的重要地位和作用</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>第四集：党章与党的先进性的关系</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>第五集：学习党章遵守党章的现实意义</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="videoshicha">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>220</y>
+      <width>291</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 11pt &quot;方正少儿简体&quot;;
+background-color: rgb(252, 241, 213);</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>习近平视察军队足迹</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>习近平穿迷彩服视察传递出哪些深意？</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>习近平登新轰炸机 轰-6K及空射版长剑-10曝光</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>习近平第13次视察某王牌部队 令其当先锋打头阵</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>习近平接见驻浙部队领导干部强调练兵备战</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>习近平接见驻浙江部队干部：抓好正风肃纪</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>习近平身着全套作训服视察军委联合作战指挥中心</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>习近平视察南京军区 强调勿忘国耻奋发图强</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>习近平视察武警特警学院 为猎鹰突击队授旗</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>习近平视察驻澳部队 亲自体验步枪模拟射击</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>习近平要求建设空天一体攻防兼备的强大空军</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>习近平在春节前夕视察看望驻西安部队</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>新疆特战队演练火烧暴恐据点 习近平连称很好</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="videonews">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>290</y>
+      <width>291</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 11pt &quot;方正少儿简体&quot;;
+background-color: rgb(252, 241, 213);</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>相关新闻报道</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2016“一带一路”媒体合作论坛召开 习近平致贺信</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>习近平八一前夕视察陆军机关时强调 在新的起点上加快推进陆军转型建设 努力建设一支强大的现代化新型陆军</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>习近平就深化人才发展体制机制改革作出重要指示强调 加大改革落实工作力度 让人才创新创造活力充分迸发</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>习近平就政法队伍建设作出重要指示强调：坚持把思想政治建设摆在第一位 努力建设信念坚定执法为民敢于担当</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>习近平在军委联合作战指挥中心视察时强调 抓住改革机遇 锐意开拓创新 聚力攻坚克难 加快构建具有我军特色的</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>习近平在视察国防大学时强调 围绕实现强军目标推进军队院校改革创新 为实现中国梦强军梦提供人才和智力支持</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>习近平在中共中央政治局第三十二次集体学习时强调 党委领导政府主导社会参与全民行动 推动老龄事业全面协调</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>习近平在中共中央政治局第三十三次集体学习时强调 严肃党内政治生活净化党内政治生态 为全面从严治党打下重</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>习近平在中共中央政治局第三十四次集体学习时强调 坚持党在新形势下的强军目标 努力建设巩固国防和强大军队</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>习近平主持召开中央全面深化改革领导小组第二十五次会议强调 聚集改革资源 激发创新活力 更加富有成效抓好</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>中共中央政治局召开会议 决定召开十八届六中全会 分析研究当前经济形势 部署下半年经济工作 中共中央总书记</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="happylast">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>510</y>
+      <width>61</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/videolast.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="happynext">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>510</y>
+      <width>61</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/videonext.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="happylabel">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>30</y>
+      <width>821</width>
+      <height>471</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>happylabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="speechLabel">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>20</y>
+      <width>761</width>
+      <height>531</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>speechLabel</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="speechQiangjun">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>30</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 11pt &quot;方正少儿简体&quot;;
+background-color: rgb(252, 241, 213);</string>
+    </property>
+    <property name="text">
+     <string>习主席讲话强军篇</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="speech1">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>160</y>
+      <width>321</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 11pt &quot;方正少儿简体&quot;;
+background-color: rgb(252, 241, 213);
+text-align : left;</string>
+    </property>
+    <property name="text">
+     <string>1.发展中国稳定中国的必由之路</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="speechDangnei">
+    <property name="geometry">
+     <rect>
+      <x>1030</x>
+      <y>30</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 11pt &quot;方正少儿简体&quot;;
+background-color: rgb(252, 241, 213);</string>
+    </property>
+    <property name="text">
+     <string>习主席讲话党内篇</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="speechGaige">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>70</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 11pt &quot;方正少儿简体&quot;;
+background-color: rgb(252, 241, 213);</string>
+    </property>
+    <property name="text">
+     <string>习主席讲话改革篇</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="speechQiangguo">
+    <property name="geometry">
+     <rect>
+      <x>1030</x>
+      <y>70</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 11pt &quot;方正少儿简体&quot;;
+background-color: rgb(252, 241, 213);</string>
+    </property>
+    <property name="text">
+     <string>习主席讲话强国篇</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="speechWaijiao">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>110</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 11pt &quot;方正少儿简体&quot;;
+background-color: rgb(252, 241, 213);</string>
+    </property>
+    <property name="text">
+     <string>习主席讲话外交篇</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="speechXibu">
+    <property name="geometry">
+     <rect>
+      <x>1030</x>
+      <y>110</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 11pt &quot;方正少儿简体&quot;;
+background-color: rgb(252, 241, 213);</string>
+    </property>
+    <property name="text">
+     <string>习主席讲话西部篇</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="speech2">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>190</y>
+      <width>321</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">text-align : left;
+font: 11pt &quot;方正少儿简体&quot;;
+background-color: rgb(252, 241, 213);</string>
+    </property>
+    <property name="text">
+     <string>2.全体中华儿女的共同向往</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="speech3">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>220</y>
+      <width>321</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">text-align : left;
+font: 11pt &quot;方正少儿简体&quot;;
+background-color: rgb(252, 241, 213);</string>
+    </property>
+    <property name="text">
+     <string>3.敢于啃硬骨头 敢于涉险滩</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="speech4">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>250</y>
+      <width>321</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">text-align : left;
+font: 11pt &quot;方正少儿简体&quot;;
+background-color: rgb(252, 241, 213);</string>
+    </property>
+    <property name="text">
+     <string>4.实现实实在在没有水分的增长</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="speech5">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>280</y>
+      <width>321</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">text-align : left;
+font: 11pt &quot;方正少儿简体&quot;;
+background-color: rgb(252, 241, 213);</string>
+    </property>
+    <property name="text">
+     <string>5.充分发挥我国社会主义政治制度优越性</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="speech6">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>310</y>
+      <width>321</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">text-align : left;
+font: 11pt &quot;方正少儿简体&quot;;
+background-color: rgb(252, 241, 213);</string>
+    </property>
+    <property name="text">
+     <string>6.让老百姓过上好日子</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="speech7">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>340</y>
+      <width>321</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">text-align : left;
+font: 11pt &quot;方正少儿简体&quot;;
+background-color: rgb(252, 241, 213);</string>
+    </property>
+    <property name="text">
+     <string>7.绿水青山就是金山银山</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="speech8">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>370</y>
+      <width>321</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">text-align : left;
+font: 11pt &quot;方正少儿简体&quot;;
+background-color: rgb(252, 241, 213);</string>
+    </property>
+    <property name="text">
+     <string>8.建设听党指挥能打胜仗作风优良的军队</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="speech9">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>400</y>
+      <width>321</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">text-align : left;
+font: 11pt &quot;方正少儿简体&quot;;
+background-color: rgb(252, 241, 213);</string>
+    </property>
+    <property name="text">
+     <string>9.建立新型国际关系</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="speech10">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>430</y>
+      <width>321</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">text-align : left;
+font: 11pt &quot;方正少儿简体&quot;;
+background-color: rgb(252, 241, 213);</string>
+    </property>
+    <property name="text">
+     <string>10.打铁还需自身硬</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="speechFind2">
+    <property name="geometry">
+     <rect>
+      <x>980</x>
+      <y>470</y>
+      <width>71</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/find2.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="speechFind1">
+    <property name="geometry">
+     <rect>
+      <x>860</x>
+      <y>470</y>
+      <width>71</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/find1.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rankLabel">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>140</y>
+      <width>831</width>
+      <height>411</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>rankLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ranktopLabel">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>10</y>
+      <width>611</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ranktopLabel</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="speechPrint">
+    <property name="geometry">
+     <rect>
+      <x>1090</x>
+      <y>470</y>
+      <width>71</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/print.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="add">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/add.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="jian">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>110</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/jian.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="up">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>190</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/up.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="down">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>270</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/down.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="videoPlay">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>360</y>
+      <width>71</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/play.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="videoLast">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>360</y>
+      <width>71</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/videolast.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="videoNext">
+    <property name="geometry">
+     <rect>
+      <x>1100</x>
+      <y>360</y>
+      <width>71</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/videonext.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="videoSound">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>460</y>
+      <width>71</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/sound.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QSlider" name="videoSlider">
+    <property name="geometry">
+     <rect>
+      <x>980</x>
+      <y>480</y>
+      <width>201</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="examXuanze">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>130</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 18pt &quot;迷你简艺黑&quot;;
+background-color: rgb(252, 241, 213);</string>
+    </property>
+    <property name="text">
+     <string>选择题目数量：</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>200</y>
+      <width>71</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 24pt &quot;迷你简艺黑&quot;;
+background-color: rgb(252, 241, 213);</string>
+    </property>
+    <property name="text">
+     <string>20</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>200</y>
+      <width>81</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 24pt &quot;迷你简艺黑&quot;;
+background-color: rgb(252, 241, 213);</string>
+    </property>
+    <property name="text">
+     <string>40</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="examshalou">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>60</y>
+      <width>321</width>
+      <height>311</height>
      </rect>
     </property>
     <property name="text">
      <string>TextLabel</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_9">
+   <widget class="QPushButton" name="pushButton_5">
     <property name="geometry">
      <rect>
-      <x>240</x>
-      <y>750</y>
-      <width>75</width>
-      <height>23</height>
+      <x>120</x>
+      <y>280</y>
+      <width>71</width>
+      <height>61</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 24pt &quot;迷你简艺黑&quot;;
+background-color: rgb(252, 241, 213);</string>
     </property>
     <property name="text">
-     <string>上一张</string>
+     <string>80</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_10">
+   <widget class="QPushButton" name="pushButton_6">
     <property name="geometry">
      <rect>
-      <x>440</x>
-      <y>750</y>
-      <width>75</width>
-      <height>23</height>
+      <x>250</x>
+      <y>280</y>
+      <width>81</width>
+      <height>61</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 24pt &quot;迷你简艺黑&quot;;
+background-color: rgb(252, 241, 213);</string>
     </property>
     <property name="text">
-     <string>下一张</string>
+     <string>100</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="xi1">
+   <widget class="QLabel" name="examJishi">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>70</y>
-      <width>191</width>
-      <height>23</height>
+      <x>950</x>
+      <y>360</y>
+      <width>281</width>
+      <height>51</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+font: 20pt &quot;迷你简艺黑&quot;;
+</string>
     </property>
     <property name="text">
-     <string>1.发展中国稳定中国的必由之路</string>
+     <string>9秒后将进入下一题</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="xi2">
+   <widget class="QRadioButton" name="exame">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>130</y>
-      <width>191</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>2.全体中华儿女的共同向往</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="xi3">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>180</y>
-      <width>191</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>3.敢于啃硬骨头 敢于涉险滩</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="xi4">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>240</y>
-      <width>191</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>4.实现实实在在的没有水分的增长</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="xi5">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>290</y>
-      <width>191</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>5.充分发挥社会主义制度优越性</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="xi6">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>340</y>
-      <width>191</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>6.让老百姓过上好日子</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="xi7">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>390</y>
-      <width>191</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>7.绿水青山就是金山银山</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="xi8">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>440</y>
-      <width>191</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>8.听党指挥能打胜仗作风优良</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="xi9">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>490</y>
-      <width>191</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>9.建立新型国际关系</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="xi10">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>540</y>
-      <width>191</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>10.铁打还需自身硬</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_11">
-    <property name="geometry">
-     <rect>
-      <x>1000</x>
-      <y>460</y>
-      <width>111</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>轻松一刻</string>
-    </property>
-   </widget>
-   <widget class="QComboBox" name="comboBox">
-    <property name="geometry">
-     <rect>
-      <x>320</x>
-      <y>750</y>
-      <width>321</width>
-      <height>22</height>
-     </rect>
-    </property>
-    <item>
-     <property name="text">
-      <string>习近平对开展“两学一做”学习教育作出重要指示强调...</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>习近平就政法队伍建设作出重要指示强调...</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>习近平在军委联合作战指挥中心视察时强调...</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>习近平在出席解放军代表团全体会议时强调...</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>习近平主持召开网络安全和信息化工作座谈会...</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>待补充</string>
-     </property>
-    </item>
-   </widget>
-   <widget class="QLabel" name="label_2">
-    <property name="geometry">
-     <rect>
-      <x>260</x>
-      <y>750</y>
+      <x>750</x>
+      <y>480</y>
       <width>51</width>
       <height>21</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">font: 18pt &quot;迷你简艺黑&quot;;</string>
+    </property>
     <property name="text">
-     <string>选择视频</string>
+     <string>e</string>
     </property>
    </widget>
+   <widget class="QPushButton" name="happy_1">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>50</y>
+      <width>271</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(252, 241, 213);</string>
+    </property>
+    <property name="text">
+     <string>中国人民解放军进行曲</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="happy_2">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>100</y>
+      <width>271</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(252, 241, 213);</string>
+    </property>
+    <property name="text">
+     <string>强军战歌--大阅兵音乐短片</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="happy_3">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>150</y>
+      <width>271</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(252, 241, 213);</string>
+    </property>
+    <property name="text">
+     <string>当兵的兄弟--金波</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="happyPlay">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>510</y>
+      <width>61</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/pause.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="happySound">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>510</y>
+      <width>61</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/sound.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QSlider" name="happySlider">
+    <property name="geometry">
+     <rect>
+      <x>880</x>
+      <y>520</y>
+      <width>201</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="happy_4">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>200</y>
+      <width>271</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(252, 241, 213);</string>
+    </property>
+    <property name="text">
+     <string>保卫黄河</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="happy_5">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>250</y>
+      <width>271</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(252, 241, 213);</string>
+    </property>
+    <property name="text">
+     <string>歌唱祖国</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="happy_6">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>300</y>
+      <width>271</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(252, 241, 213);</string>
+    </property>
+    <property name="text">
+     <string>Titans - Vangelis - 轻音乐</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="happy_7">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>350</y>
+      <width>271</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(252, 241, 213);</string>
+    </property>
+    <property name="text">
+     <string>夜之仙境 - 音乐短片轻音乐</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="happy_8">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>400</y>
+      <width>271</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(252, 241, 213);</string>
+    </property>
+    <property name="text">
+     <string>DAVE KOZ - I'm Waiting For You(我在等你)</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="happy_9">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>450</y>
+      <width>271</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(252, 241, 213);</string>
+    </property>
+    <property name="text">
+     <string>Breath And Life - Audiomachine - 轻音乐</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="happy_10">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>500</y>
+      <width>271</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(252, 241, 213);</string>
+    </property>
+    <property name="text">
+     <string>A Small Step For Mankind - 轻音乐</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="happy_11">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>550</y>
+      <width>271</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(252, 241, 213);</string>
+    </property>
+    <property name="text">
+     <string>Garador&amp;apos;s Flight - 轻音乐</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="happy_12">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>600</y>
+      <width>271</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(252, 241, 213);</string>
+    </property>
+    <property name="text">
+     <string>Immortal - Thomas Bergersen - 轻音乐</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="speechFind1Label">
+    <property name="geometry">
+     <rect>
+      <x>880</x>
+      <y>530</y>
+      <width>41</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;方正少儿简体&quot;;</string>
+    </property>
+    <property name="text">
+     <string>搜索</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="speechFind2Label">
+    <property name="geometry">
+     <rect>
+      <x>990</x>
+      <y>530</y>
+      <width>41</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;方正少儿简体&quot;;</string>
+    </property>
+    <property name="text">
+     <string>高级搜索</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="speechPrintLabel">
+    <property name="geometry">
+     <rect>
+      <x>1110</x>
+      <y>530</y>
+      <width>41</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;方正少儿简体&quot;;</string>
+    </property>
+    <property name="text">
+     <string>打印</string>
+    </property>
+   </widget>
+   <zorder>rankLabel</zorder>
+   <zorder>label</zorder>
+   <zorder>shouye</zorder>
+   <zorder>xilie</zorder>
+   <zorder>genzhe</zorder>
+   <zorder>exam</zorder>
+   <zorder>rank</zorder>
+   <zorder>happy</zorder>
+   <zorder>bbs</zorder>
+   <zorder>exit</zorder>
+   <zorder>genzhelabel</zorder>
+   <zorder>dangshi</zorder>
+   <zorder>junshi</zorder>
+   <zorder>next</zorder>
+   <zorder>examz</zorder>
+   <zorder>comboBox</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>examwelcome2</zorder>
+   <zorder>videoyongdian</zorder>
+   <zorder>videoliangxue</zorder>
+   <zorder>videoshicha</zorder>
+   <zorder>videonews</zorder>
+   <zorder>video</zorder>
+   <zorder>speechQiangjun</zorder>
+   <zorder>speech1</zorder>
+   <zorder>speechDangnei</zorder>
+   <zorder>speechGaige</zorder>
+   <zorder>speechQiangguo</zorder>
+   <zorder>speechWaijiao</zorder>
+   <zorder>speechXibu</zorder>
+   <zorder>speech2</zorder>
+   <zorder>speech3</zorder>
+   <zorder>speech4</zorder>
+   <zorder>speech5</zorder>
+   <zorder>speech6</zorder>
+   <zorder>speech7</zorder>
+   <zorder>speech8</zorder>
+   <zorder>speech9</zorder>
+   <zorder>speech10</zorder>
+   <zorder>last</zorder>
+   <zorder>malie</zorder>
+   <zorder>guoxue</zorder>
+   <zorder>ranktopLabel</zorder>
+   <zorder>speechLabel</zorder>
+   <zorder>add</zorder>
+   <zorder>jian</zorder>
+   <zorder>up</zorder>
+   <zorder>down</zorder>
+   <zorder>videoPlay</zorder>
+   <zorder>videoLast</zorder>
+   <zorder>videoNext</zorder>
+   <zorder>videoSlider</zorder>
+   <zorder>exama</zorder>
+   <zorder>examb</zorder>
+   <zorder>examc</zorder>
+   <zorder>examd</zorder>
+   <zorder>examwelcome</zorder>
+   <zorder>examjindu</zorder>
+   <zorder>examXuanze</zorder>
+   <zorder>pushButton_2</zorder>
+   <zorder>pushButton_3</zorder>
+   <zorder>examshalou</zorder>
+   <zorder>pushButton_5</zorder>
+   <zorder>pushButton_6</zorder>
+   <zorder>examJishi</zorder>
+   <zorder>examnext</zorder>
+   <zorder>exame</zorder>
+   <zorder>happylabel</zorder>
+   <zorder>happy_1</zorder>
+   <zorder>happy_2</zorder>
+   <zorder>happy_3</zorder>
+   <zorder>happylast</zorder>
+   <zorder>happynext</zorder>
+   <zorder>happyPlay</zorder>
+   <zorder>happySound</zorder>
+   <zorder>happySlider</zorder>
+   <zorder>happy_4</zorder>
+   <zorder>happy_5</zorder>
+   <zorder>happy_6</zorder>
+   <zorder>happy_7</zorder>
+   <zorder>happy_8</zorder>
+   <zorder>happy_9</zorder>
+   <zorder>happy_10</zorder>
+   <zorder>happy_11</zorder>
+   <zorder>happy_12</zorder>
+   <zorder>videoSound</zorder>
+   <zorder>speechFind1</zorder>
+   <zorder>speechFind2</zorder>
+   <zorder>speechPrint</zorder>
+   <zorder>speechFind1Label</zorder>
+   <zorder>speechFind2Label</zorder>
+   <zorder>speechPrintLabel</zorder>
+   <zorder>examlabel</zorder>
   </widget>
-  <widget class="QMenuBar" name="menuBar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>1142</width>
-     <height>23</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QToolBar" name="mainToolBar">
-   <attribute name="toolBarArea">
-    <enum>TopToolBarArea</enum>
-   </attribute>
-   <attribute name="toolBarBreak">
-    <bool>false</bool>
-   </attribute>
-  </widget>
-  <widget class="QStatusBar" name="statusBar"/>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <resources/>

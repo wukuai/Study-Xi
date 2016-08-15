@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>abctiku.txt</file>
+        <file>abcdtiku.txt</file>
+    </qresource>
+</RCC>
